@@ -58,6 +58,7 @@ public class ShopRepository {
         return null;
 
     }
+
     public void AddingProduct(int id) {
         Product addingProduct = findById(id);
         if (addingProduct != null) {
